@@ -360,8 +360,7 @@ main{
 }
 input[type=text], select {
     max-width: 1032px;
-    width: 100%;
-    text-align: center;
+    width: 95%;
     padding: 20px 40px;
     margin: 32px ;
     display: inline-block;
