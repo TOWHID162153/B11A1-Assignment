@@ -158,7 +158,6 @@ nav ul li a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     background-color: #C6E4D6;
     border-radius: 24px;
     margin: 20px 160px;
@@ -194,8 +193,8 @@ main{
 .sec-tb-gap{
     margin-top: 80px;
     text-align: justify;
-
 }
+
 
 .vision-title{
     font-size: 40px;
@@ -271,6 +270,11 @@ main{
 .div-32-mar{
     margin-bottom: 32px;
 }
+.donate-padding{
+    text-align: center;
+    padding: 0px 88px;
+}
+
 
 .recent-news-pading{
     background-color: #FFFFFF;
@@ -301,4 +305,71 @@ main{
 .space-div{
     display: block;
     gap: 32px;
+}
+
+
+
+/* Subscribe Newsletter */
+.Subscribe-bg{
+    display: block;
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    text-align: center;
+}
+.subscribe-max-with{
+    max-width: 600;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sub-white-btn{
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: rgb(14, 14, 14, .30);
+    margin: 0px;
+    border: none;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 18px 40px;
+}
+.sub-green-btn{
+    max-width: 150px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #006A50;
+    color: white;
+    margin: 0px;
+    border: none;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 18px 40px;
+}
+.donate-btn-posssition{
+   text-align: center;
+}
+input[type=text], select {
+    max-width: 1032px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 40px;
+    margin: 32px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.donate-padding{
+    text-align: center;
+    padding: 0px 88px;
 }
