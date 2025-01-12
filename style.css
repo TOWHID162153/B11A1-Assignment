@@ -576,3 +576,8 @@
         text-align: center;
         padding: 0px 88px;
     }
+    .dr-bg-img{
+        background-image: url(assets/quote-bg.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
