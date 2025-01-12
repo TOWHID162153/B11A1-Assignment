@@ -125,8 +125,11 @@
     }
 
     .all-btn-green:hover {
-        background-color: rgba(128, 128, 128, 0.782);
-        color: #006A50;
+        background-color: rgba(124, 124, 124, 0.752);
+        color: #006249;
+        cursor: pointer;
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
         border: none;
         cursor: pointer;
         transform: scale(1);
@@ -240,7 +243,8 @@
         max-width: 474.03px;
         transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
     }
-    .banner-dp:hover{
+
+    .banner-dp:hover {
         max-height: 400.5px;
         max-width: 474.08px;
         transform: scale(1);
@@ -267,6 +271,13 @@
 
     .vision-title {
         font-size: 40px;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+    }
+
+    .vision-title:hover {
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
+
     }
 
     .vision-box {
@@ -279,9 +290,10 @@
         padding: 32px;
         background-color: rgba(84, 144, 245, .20);
         border-radius: 16px;
-        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99); 
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
     }
-    .vision-box-pad-1:hover{
+
+    .vision-box-pad-1:hover {
         background-color: rgba(19, 47, 96, 0.5);
         cursor: pointer;
         transform: scale(1);
@@ -293,21 +305,25 @@
         padding: 32px;
         background-color: #C6E4D6;
         border-radius: 16px;
-        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99); 
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
     }
-    .vision-box-pad-2:hover{
+
+    .vision-box-pad-2:hover {
         background-color: rgba(19, 47, 96, 0.5);
         cursor: pointer;
         transform: scale(1);
         transform: scale(1.02) translateY(-0.3rem);
-     }
+    }
 
     .vision-box-pad-3 {
         padding: 32px;
         background-color: #F7EBCF;
         border-radius: 16px;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+
     }
-    .vision-box-pad-3:hover{
+
+    .vision-box-pad-3:hover {
         background-color: rgba(19, 47, 96, 0.5);
         cursor: pointer;
         transform: scale(1);
@@ -322,7 +338,18 @@
     .card-title {
         font-size: 20px;
         opacity: 80%;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+
     }
+
+    .card-title:hover {
+        font-size: 21px;
+        opacity: 85%;
+
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
+    }
+
 
     .card-info {
         font-size: 16px;
@@ -339,6 +366,15 @@
         border: none;
         border-radius: 8px;
         padding: 13px 26px;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+    }
+
+    .blue-btn:hover {
+        background-color: rgba(255, 255, 255, 0.58);
+        color: #006249;
+        cursor: pointer;
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
     }
 
     .green-btn {
@@ -351,6 +387,15 @@
         border: none;
         border-radius: 8px;
         padding: 13px 26px;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+    }
+
+    .green-btn:hover {
+        background-color: rgba(255, 255, 255, 0.58);
+        color: #006249;
+        cursor: pointer;
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
     }
 
     .yellow-btn {
@@ -363,6 +408,16 @@
         border: none;
         border-radius: 8px;
         padding: 13px 26px;
+        transition: transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+    }
+
+    .yellow-btn:hover {
+        background-color: rgba(255, 255, 255, 0.58);
+        color: #006249;
+        cursor: pointer;
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
+
     }
 
 
@@ -393,16 +448,41 @@
         max-width: 408px;
         max-height: 306px;
         border-radius: 24px;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+    }
+
+    .satelite-img:hover {
+        max-width: 411px;
+        max-height: 309px;
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
     }
 
     .recent-news-title {
         font-size: 32px;
         opacity: 80px;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+    }
+
+    .recent-news-title:hover {
+        font-size: 35px;
+        opacity: 83px;
+        cursor: pointer;
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
     }
 
     .al-jaz-img {
         max-width: 134px;
         max-height: 40px;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+    }
+
+    .al-jaz-img:hover {
+        max-width: 137px;
+        max-height: 43px;
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
     }
 
     .satelite-main {
@@ -447,13 +527,6 @@
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         padding: 18px 40px;
-        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99); 
-    }
-    .sub-white-btn:hover{
-        background-color: rgb(14, 14, 14, .30);
-        color: #FFFFFF;
-        transform: scale(1);
-        transform: scale(1.02) translateY(-0.3rem);
 
     }
 
@@ -471,6 +544,16 @@
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
         padding: 18px 40px;
+        transition: 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), -webkit-transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+
+    }
+
+    .sub-green-btn:hover {
+        background-color: rgba(124, 124, 124, 0.752);
+        color: #006249;
+        cursor: pointer;
+        transform: scale(1);
+        transform: scale(1.02) translateY(-0.3rem);
     }
 
     .donate-btn-posssition {
